@@ -1,0 +1,12 @@
+@media screen and (max-width: 1280px)
+{
+ nav { text-align: right;}
+ nav li { display: block;}
+ p { font-size: 1.1em;}
+} 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+	 p { font-size: 1.1em;}
+  }
+}

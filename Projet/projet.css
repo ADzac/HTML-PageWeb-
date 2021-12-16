@@ -1,0 +1,61 @@
+a:hover{color:blue;}
+.une{
+	color:black;
+     text-decoration:underline;
+	 font-family:Impact, fantasy;
+	 font-style:oblique;
+	 font-size:69px;
+	 text-align: center;
+	 background-color:white;
+}
+.deux{
+	color:black;
+     font-size:50px;
+     font-family:Brush Script MT;
+	 font-style:italic;
+}
+body{
+     background-image:url("pantai.png"); 
+     background-position: center;
+	 background-size:cover;
+}
+.trois{
+	color:black;
+	font-family:monospace;
+	font-size:50px;
+	font-style:italic;
+	border-style:solid;
+}
+input[type=submit]{
+	font-size:45px;
+	font-family:Times New Roman;
+	border:solid;
+	background-color:transparent;
+}
+	input.no,.yes,.oui,.non {
+	  position:relative;
+	}
+	.ok{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.no{	
+    text-align: center;
+	margin-left:35%;
+	margin-right:40%;
+}
+.yes{
+	margin-left:38%;
+	margin-right:33%;
+}
+.oui{
+	margin-left:24%;
+	margin-right:50%;
+}
+.non{
+	margin-left:27%;
+	margin-right:50%;
+}
+
+	

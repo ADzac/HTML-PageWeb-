@@ -1,0 +1,47 @@
+.une{
+	color:black;
+	 font-family:Impact, fantasy;
+	 font-style:oblique;
+	 font-size:69px;
+	 text-align: center;
+	 background-color:white;
+	 background: linear-gradient(110deg, white 50%, #add8e6 55%);
+}
+.deux{
+	color:black;
+     font-size:30px;
+     font-family:Times;
+	 font-style:italic;
+}
+body{
+	 background-size:cover;
+	 animation-name : bg;
+	 animation-duration: 6s;
+	 animation-iteration-count: infinite;
+	 animation-direction: alternate;
+}
+@keyframes bg {
+	0% {background-color: white;}
+	50% {background-color: #f0f8ff;}
+	100% {background-color: #add8e6;}
+}
+table{
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+	border: 1px solid black;
+}
+tr{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{
+	font-size:20px;
+}
+li{
+	font-size:20px;
+	list-style-type: none;
+}
